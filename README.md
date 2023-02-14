@@ -1,0 +1,2 @@
+# Java_Journey_03_Operators_Keywords_and_ReadingInput
+The 03 repository covers the concept of operators and keywords in Java, along with their usage. It also delves into reading input from the user and using it in the program. By mastering this repository, you'll be able to create programs that can take user input and perform a variety of operations on that data using different operators and keywords.
