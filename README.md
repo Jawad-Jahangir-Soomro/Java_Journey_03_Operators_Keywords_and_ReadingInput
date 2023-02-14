@@ -403,3 +403,19 @@ In Java, access modifiers are used to restrict the visibility or accessibility o
 By using access modifiers, we can control the visibility of classes, methods, and variables in our Java programs, which helps to improve code readability and maintainability.
 
 ### Some other Keywords.
+
+- <b>this</b> : 
+
+    The this keyword refers to the current object in a method or constructor. The most common use of the this keyword is to eliminate the confusion between class attributes and parameters with the same name (because a class attribute is shadowed by a method or constructor parameter)
+
+- <b>new</b> :
+
+    The new keyword in Java instantiates a class by allocating desired memory for an associated new object. It then returns a reference to that memory. Many times, the new keyword in Java is also used to create the array object. The new keyword is followed by a call to a constructor, which instantiates the new object.
+
+- <b>static</b> :
+
+    The static keyword is a non-access modifier used for methods and attributes. Static methods/attributes can be accessed without creating an object of a class.
+
+- <b>import</b> : 
+
+    import is a Java keyword. It declares a Java class to use in the code below the import statement. Once a Java class is declared, then the class name can be used in the code without specifying the package the class belongs to. Use the '*' character to declare all the classes belonging to the package.
