@@ -402,6 +402,10 @@ In Java, access modifiers are used to restrict the visibility or accessibility o
 
 By using access modifiers, we can control the visibility of classes, methods, and variables in our Java programs, which helps to improve code readability and maintainability.
 
+Here is a chart to clarify the concepts related to access modifiers
+
+![Access-Modifiers-in-Java](https://user-images.githubusercontent.com/123876118/218853534-92a6f904-1624-4a55-83e3-5bb25090c6d2.png)
+
 ### Some other Keywords.
 
 - <b>this</b> : 
