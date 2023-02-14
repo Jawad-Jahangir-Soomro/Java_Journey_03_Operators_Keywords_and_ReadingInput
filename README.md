@@ -448,3 +448,59 @@ System.out.println('\u0041');
 Here, \u0041 is the Unicode code point for the character "A". When you run this code, it will print "A" to the console.
 
 In summary, an understanding of the Unicode system is important for developing Java programs that work with text data in different languages and character sets.    
+
+## Learn how to read input in Java.
+
+In Java, you can use the Scanner class to read input from various sources such as the console, a file, or a string. Here are the steps to read input in Java:
+
+- Import the Scanner class: You need to import the Scanner class in your code by including the following statement at the top of your code:
+
+    ```bash
+    import java.util.Scanner;
+    ```
+
+- Create a Scanner object: You need to create a Scanner object that reads input from the desired source. For example, if you want to read input from the console, you can create a Scanner object like this:
+
+    ```bash
+    Scanner scanner = new Scanner(System.in);
+    ```
+
+- Read input: You can use various methods provided by the Scanner class to read input of different data types. For example, to read an integer, you can use the nextInt() method like this:
+
+    ```bash
+    int num = scanner.nextInt();
+    ```
+
+    To read a string, you can use the next() or nextLine() method like this:
+
+    ```bash
+    String name = scanner.next();
+    ```
+
+- Close the Scanner object: Once you are done reading input, you should close the Scanner object to release the system resources it is holding. You can close the Scanner object like this:
+
+    ```bash
+    scanner.close();
+    ```
+
+Here's an example that reads an integer and a string from the console:
+
+```bash
+import java.util.Scanner;
+
+public class ReadInput {
+   public static void main(String[] args) {
+      Scanner scanner = new Scanner(System.in);
+
+      System.out.print("Enter an integer: ");
+      int num = scanner.nextInt();
+      System.out.println("You entered " + num);
+
+      System.out.print("Enter a string: ");
+      String name = scanner.next();
+      System.out.println("You entered " + name);
+
+      scanner.close();
+   }
+}
+```
