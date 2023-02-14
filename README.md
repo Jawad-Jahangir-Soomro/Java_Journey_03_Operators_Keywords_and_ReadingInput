@@ -267,3 +267,33 @@ In Java, bitwise operators are used to perform operations on individual bits of 
 
 ### 6 - Ternary Operator:
 
+In Java, a ternary operator is a shorthand for an if-else statement. It consists of three operands and is denoted by the ? : symbol. It can be used to write concise code and is commonly used in control flow statements.
+
+The syntax for a ternary operator is as follows:
+
+```bash
+variable = (condition) ? value1 : value2;
+```
+
+If the condition is true, then the value of the expression is value1, otherwise it is value2.
+
+Here's an example:
+
+```bash
+int num1 = 5;
+int num2 = 10;
+int maxNum = (num1 > num2) ? num1 : num2;
+```
+
+In this example, the ternary operator is used to assign the value of the variable maxNum. If num1 is greater than num2, then maxNum will be assigned the value of num1. Otherwise, maxNum will be assigned the value of num2.
+
+Another example of a ternary operator:
+
+```bash
+int x = 10;
+String result = (x > 5) ? "x is greater than 5" : "x is less than or equal to 5";
+```
+
+In this example, the ternary operator is used to assign the value of the variable result. If x is greater than 5, then result will be assigned the string "x is greater than 5". Otherwise, result will be assigned the string "x is less than or equal to 5".
+
+
